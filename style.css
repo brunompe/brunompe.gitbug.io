@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.results {
+  position: relative;
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.results::after {
+  content: "";
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(134, 134, 134)) , url(./images/undraw_Co-working_re_w93t.svg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 30px;
+  margin: 0px 20px 0px 20px;
+  border-radius: 10px;
+  border: 3px solid rgb(62, 66, 75);
+}
+
+header::after {
+  content: "";
+  margin: 0px 20px 20px 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(204, 204, 204)) , url(./images/iStock-825493738.jpg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: end;
+}
+
+.form-header-option {
+  height: 30px;
+  font-size: 15px;
+}
+
+.job-card {
+  border: solid rgb(129, 129, 129) 2px;
+  margin: 5px 3px;
+  display: flex column;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(181, 220, 236, 0.3);
+  font-weight: bolder;
+  opacity: 1;
+}
+
+.job-card:hover {
+  border: solid black 3px;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: rgb(161, 191, 255);
+}
+
+.div-company-location p {
+  margin: 2px;
+  padding: 3px;
+  border: 2px solid rgb(24, 61, 34);
+}
+
+h3 {
+  text-align: center;
+}
+
+.modal-title {
+  font-weight: bolder;
+}
+
+.pop-up-style {
+  margin: 5px;
+}
+
+.btn-submit {
+  font-weight: bolder;
+  vertical-align: middle;
+  text-align: center;
+  height: 40px;
+}
+
+.div-btn {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: x-large;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.input-job {
+  height: 40px;
+}
+
+.input-location {
+  height: 40px;
+}
+
+.form-control {
+  height: 40px;
+}
